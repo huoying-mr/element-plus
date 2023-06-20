@@ -25,6 +25,7 @@
         range-separator="To"
         start-placeholder="Start date"
         end-placeholder="End date"
+        :editable="false"
         :shortcuts="shortcuts"
         :size="size"
       />
